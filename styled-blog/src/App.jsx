@@ -1,10 +1,17 @@
+import Header from "./components/Header"
+import { Container } from "./components/styles/Container.styled"
 
 function App() {
   
 
   return (
     <>
-      <h1>Hello</h1>
+      <Header />
+      <Container>
+
+        <h1>Hello</h1>
+
+      </Container>
     </>
   )
 }

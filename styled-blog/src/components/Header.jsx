@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyledHeader, Nav, Logo } from './styles/Header.styled'
+import { StyledHeader, Nav, Logo, Image } from './styles/Header.styled'
 import { Container } from './styles/Container.styled'
 import { Button } from './styles/Button.styled'
 import { Flex } from './styles/Flex.styled'
@@ -20,7 +20,12 @@ export default function Header() {
                 <h1>
                     Blog landing hero section header
                 </h1>
+                <p>Filler paragraph text for the blog. Will give an introductory message to what the blog talks about here.</p>
+
+                <Button bg = '#ff0099' color='#fff'>Button placeholder</Button>
             </div>
+
+            <Image src='./images/vite.svg' alt=''></Image>
         </Flex>
     </StyledHeader>
   )

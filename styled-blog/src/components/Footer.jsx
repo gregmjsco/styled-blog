@@ -1,3 +1,4 @@
+import Socialicons from "./Socialicons"
 import { Container } from "./styles/Container.styled"
 import { Flex } from "./styles/Flex.styled"
 import { StyledFooter } from "./styles/Footer.styled"
@@ -14,6 +15,8 @@ export default function Footer() {
                     <li>080-1234-5678</li>
                     <li>example@email.com</li>
                 </ul>
+
+                <Socialicons />
             </Flex>
 
             <p>&copy; Blog Copy Footer</p>

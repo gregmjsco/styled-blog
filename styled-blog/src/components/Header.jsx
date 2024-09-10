@@ -25,7 +25,7 @@ export default function Header() {
                 <Button bg = '#ff0099' color='#fff'>Button placeholder</Button>
             </div>
 
-            <Image src='./images/vite.svg' alt=''></Image>
+            <Image src='../../public/images/vite.svg' alt=''></Image>
         </Flex>
     </StyledHeader>
   )

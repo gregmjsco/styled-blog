@@ -1,4 +1,3 @@
-import React from 'react'
 import { StyledHeader, Nav, Logo, Image } from './styles/Header.styled'
 import { Container } from './styles/Container.styled'
 import { Button } from './styles/Button.styled'
@@ -12,8 +11,8 @@ export default function Header() {
                 <Logo src='./images/logo.svg' />
                 <Button> Posts</Button>
             </Nav>
-            <h1>Blog</h1>
-        </Container>
+            
+        
 
         <Flex>
             <div>
@@ -27,6 +26,7 @@ export default function Header() {
 
             <Image src='../../public/images/vite.svg' alt=''></Image>
         </Flex>
+        </Container>
     </StyledHeader>
   )
 }

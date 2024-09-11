@@ -21,7 +21,7 @@ export default function Header() {
                 </h1>
                 <p>Filler paragraph text for the blog. Will give an introductory message to what the blog talks about here.</p>
 
-                <Button bg = '#ff0099' color='#fff'>Button placeholder</Button>
+                <Button bg = '#FF5A5F' color='#fff'>Button placeholder</Button>
             </div>
 
             <Image src='../../public/images/vite.svg' alt=''></Image>

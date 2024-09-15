@@ -1,8 +1,18 @@
 import styled from "styled-components";
 
 export const StyledHeader = styled.header`
-    background-color: ${({ theme }) => theme.colors.violet};
+    //background-color: ${({ theme }) => theme.colors.violet};
+    background: linear-gradient(86deg, #ae67ff, #fffc67);
+    background-size: 400% 400%;
     padding: 40px 0;
+
+    animation: AnimationName 17s ease infinite;
+
+    @keyframes AnimationName {
+    0%{background-position:22% 0%}
+    50%{background-position:79% 100%}
+    100%{background-position:22% 0%}
+}
 `
 
 export const Nav = styled.nav`

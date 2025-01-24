@@ -5,7 +5,7 @@ export const StyledFooter = styled.footer`
     color: #fff;
     padding: 100px 0 60px;
 
-    background: linear-gradient(86deg, #ae67ff, #fffc67);
+    background: linear-gradient(86deg, #ae67ff, #5bfd69);
     background-size: 400% 400%;
 
     animation: AnimationName 17s ease infinite;
